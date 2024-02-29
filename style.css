@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  border: 2px solid gray;
+  border-radius: 5px;
+  display: inline;
+  padding: 15px;
+  box-shadow: 0 0 25px gray;
+  background: url(image/download.jpg);
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+input {
+  margin: 7px 7px;
+  width: 50px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 10px;
+  text-align: center;
+  border-color: deepskyblue;
+}
+div.container {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.allInput {
+  height: 85px;
+  margin-bottom: 20px;
+}
+div.StartBtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button.tryBtn {
+  margin: 50px 10px;
+  width: 80px;
+  font-size: 30px;
+  color: deepskyblue;
+  border-color: deepskyblue;
+}
+
+#BTN {
+  font-size: 40px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  background-color: greenyellow;
+  color: mediumvioletred;
+}
+
+.tryBtn:hover {
+  background-color: deepskyblue;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
